@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Js</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="list.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="header-todo">
+                <h1>TODO LIST</h1>
+                <div class="row">
+                    <input type="text" placeholder="Mau ngapain hari ini?" id="input">
+                    <button onclick="addTask()" class="btn">Add</button>
+                </div>
+            </div>
+            <div class="tasks row">
+                <ul class="list-container">
+                </ul>
+            </div>
+            <div class="btn-reset-wrapper">
+                <button class="btn btn-reset" onclick="removeData()">Reset</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
